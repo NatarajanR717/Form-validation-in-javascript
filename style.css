@@ -467,6 +467,12 @@ margin: 20px;
    .wrapper-signup .progress-bar{
       display: none;
    }
+   .line::before{
+      left: 30%;
+   }
+   .from-outer form .page .field{
+      width: 380px;
+   } 
 }
 
 
