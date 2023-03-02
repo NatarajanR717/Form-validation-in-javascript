@@ -2,6 +2,8 @@ const slidePage = document.querySelector(".slidepage");
 const loginForm = document.forms.loginforms;
 const fromEl = document.forms.signupform;
 const loginEmail = document.getElementById("emaillogin");
+const toggleBtn = document.querySelector(".toggle-btn");
+const dropDownMenu = document.querySelector(".menu");
 const loginPassword = document.getElementById("password");
 const checkBox = document.getElementById("keeplogin");
 const loginSubmitBtn = document.querySelector(".submit-btn");
@@ -30,6 +32,12 @@ const zipCode = document.getElementById("zipcode");
 let max = 4;
 let current = 1;
 
+
+
+
+toggleBtn.addEventListener('click',() =>{
+   dropDownMenu.classList.toggle("open");
+})
 
 
 
